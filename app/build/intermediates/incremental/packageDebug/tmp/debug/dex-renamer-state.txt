@@ -1,0 +1,7 @@
+#Tue May 12 22:25:14 CST 2020
+base.1=C\:\\Software\\Data\\Program\\segment\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.1=classes.dex
+base.0=C\:\\Software\\Data\\Program\\segment\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

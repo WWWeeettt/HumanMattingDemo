@@ -1,0 +1,4 @@
+#Mon May 11 12:48:05 CST 2020
+base.0=C\:\\Software\\Data\\Program\\segment_4\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

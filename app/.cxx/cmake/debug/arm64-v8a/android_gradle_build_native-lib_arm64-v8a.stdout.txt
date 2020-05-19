@@ -1,0 +1,278 @@
+[1/1] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
+FAILED: cmd.exe /C "cd . && D:\Android\Sdk\ndk\20.0.5594570\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=aarch64-none-linux-android24 --gcc-toolchain=D:/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp=libomp -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -shared -Wl,-soname,libnative-lib.so -o ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so CMakeFiles/native-lib.dir/src/main/jni/squeezencnn_jni.cpp.o  ../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a -llog -latomic -lm && cd ."
+CMakeFiles/native-lib.dir/src/main/jni/squeezencnn_jni.cpp.o: In function `Java_com_tencent_squeezencnn_SqueezeNcnn_Init':
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:90: undefined reference to `AAssetManager_fromJava'
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:116: undefined reference to `AAssetManager_open'
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:123: undefined reference to `AAsset_getLength'
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:127: undefined reference to `AAsset_read'
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:129: undefined reference to `AAsset_close'
+CMakeFiles/native-lib.dir/src/main/jni/squeezencnn_jni.cpp.o: In function `Java_com_tencent_squeezencnn_SqueezeNcnn_Detect':
+D:\Android\AndroidStudioProjects\ncnn-android-squeezenet-master-1\app\src\main\jni/squeezencnn_jni.cpp:154: undefined reference to `AndroidBitmap_getInfo'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::create_gpu_instance()':
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x40): undefined reference to `vkEnumerateInstanceExtensionProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x88): undefined reference to `vkEnumerateInstanceExtensionProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x4c8): undefined reference to `vkCreateInstance'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x4e8): undefined reference to `vkGetInstanceProcAddr'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x510): undefined reference to `vkGetInstanceProcAddr'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x52c): undefined reference to `vkGetInstanceProcAddr'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x548): undefined reference to `vkGetInstanceProcAddr'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x564): undefined reference to `vkGetInstanceProcAddr'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o):gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x580): more undefined references to `vkGetInstanceProcAddr' follow
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::create_gpu_instance()':
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x6b4): undefined reference to `vkEnumeratePhysicalDevices'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x704): undefined reference to `vkEnumeratePhysicalDevices'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x758): undefined reference to `vkGetPhysicalDeviceProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x8d4): undefined reference to `vkGetPhysicalDeviceQueueFamilyProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0x924): undefined reference to `vkGetPhysicalDeviceQueueFamilyProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0xb48): undefined reference to `vkGetPhysicalDeviceMemoryProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0xb60): undefined reference to `vkEnumerateDeviceExtensionProperties'
+gpu.cpp:(.text._ZN4ncnn19create_gpu_instanceEv+0xbb0): undefined reference to `vkEnumerateDeviceExtensionProperties'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::destroy_gpu_instance()':
+gpu.cpp:(.text._ZN4ncnn20destroy_gpu_instanceEv+0x140): undefined reference to `vkDestroyInstance'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::VulkanDevice(int)':
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceC2Ei+0xf48): undefined reference to `vkCreateDevice'
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceC2Ei+0x1030): undefined reference to `vkGetDeviceQueue'
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceC2Ei+0x10f8): undefined reference to `vkGetDeviceQueue'
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceC2Ei+0x1190): undefined reference to `vkGetDeviceQueue'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::init_device_extension()':
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0x28): undefined reference to `vkGetDeviceProcAddr'
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0x40): undefined reference to `vkGetDeviceProcAddr'
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0x60): undefined reference to `vkGetDeviceProcAddr'
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0x78): undefined reference to `vkGetDeviceProcAddr'
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0x90): undefined reference to `vkGetDeviceProcAddr'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o):gpu.cpp:(.text._ZN4ncnn12VulkanDevice21init_device_extensionEv+0xb0): more undefined references to `vkGetDeviceProcAddr' follow
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::create_shader_module()':
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice20create_shader_moduleEv+0x1dc): undefined reference to `vkCreateShaderModule'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::~VulkanDevice()':
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceD2Ev+0x98): undefined reference to `vkDestroyShaderModule'
+gpu.cpp:(.text._ZN4ncnn12VulkanDeviceD2Ev+0xc0): undefined reference to `vkDestroyDevice'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::destroy_shader_module()':
+gpu.cpp:(.text._ZN4ncnn12VulkanDevice21destroy_shader_moduleEv+0x34): undefined reference to `vkDestroyShaderModule'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::compile_shader_module(unsigned int const*, unsigned long, unsigned int, unsigned int, unsigned int) const':
+gpu.cpp:(.text._ZNK4ncnn12VulkanDevice21compile_shader_moduleEPKjmjjj+0x210): undefined reference to `vkCreateShaderModule'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(gpu.cpp.o): In function `ncnn::VulkanDevice::compile_shader_module(unsigned int const*, unsigned long) const':
+gpu.cpp:(.text._ZNK4ncnn12VulkanDevice21compile_shader_moduleEPKjm+0x40): undefined reference to `vkCreateShaderModule'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkAllocator::flush(ncnn::VkBufferMemory*)':
+allocator.cpp:(.text._ZN4ncnn11VkAllocator5flushEPNS_14VkBufferMemoryE+0x8c): undefined reference to `vkFlushMappedMemoryRanges'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkAllocator::invalidate(ncnn::VkBufferMemory*)':
+allocator.cpp:(.text._ZN4ncnn11VkAllocator10invalidateEPNS_14VkBufferMemoryE+0x8c): undefined reference to `vkInvalidateMappedMemoryRanges'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkAllocator::create_buffer(unsigned long, unsigned int)':
+allocator.cpp:(.text._ZN4ncnn11VkAllocator13create_bufferEmj+0x54): undefined reference to `vkCreateBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkAllocator::allocate_memory(unsigned long)':
+allocator.cpp:(.text._ZN4ncnn11VkAllocator15allocate_memoryEm+0x48): undefined reference to `vkAllocateMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkAllocator::allocate_dedicated_memory(unsigned long, VkBuffer_T*)':
+allocator.cpp:(.text._ZN4ncnn11VkAllocator25allocate_dedicated_memoryEmP10VkBuffer_T+0x60): undefined reference to `vkAllocateMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkBlobBufferAllocator::clear()':
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator5clearEv+0x40): undefined reference to `vkUnmapMemory'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator5clearEv+0x54): undefined reference to `vkDestroyBuffer'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator5clearEv+0x68): undefined reference to `vkFreeMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkBlobBufferAllocator::fastMalloc(unsigned long)':
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator10fastMallocEm+0x188): undefined reference to `vkCreateBuffer'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator10fastMallocEm+0x1a4): undefined reference to `vkGetBufferMemoryRequirements'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator10fastMallocEm+0x270): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator10fastMallocEm+0x290): undefined reference to `vkBindBufferMemory'
+allocator.cpp:(.text._ZN4ncnn21VkBlobBufferAllocator10fastMallocEm+0x2bc): undefined reference to `vkMapMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkWeightBufferAllocator::clear()':
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0x48): undefined reference to `vkUnmapMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0x5c): undefined reference to `vkDestroyBuffer'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0x70): undefined reference to `vkFreeMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0xc4): undefined reference to `vkUnmapMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0xd8): undefined reference to `vkDestroyBuffer'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator5clearEv+0xec): undefined reference to `vkFreeMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkWeightBufferAllocator::fastMalloc(unsigned long)':
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0xd8): undefined reference to `vkCreateBuffer'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x1ec): undefined reference to `vkGetBufferMemoryRequirements'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x290): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x2b0): undefined reference to `vkBindBufferMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x2dc): undefined reference to `vkMapMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x534): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x554): undefined reference to `vkBindBufferMemory'
+allocator.cpp:(.text._ZN4ncnn23VkWeightBufferAllocator10fastMallocEm+0x580): undefined reference to `vkMapMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkStagingBufferAllocator::clear()':
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator5clearEv+0x44): undefined reference to `vkUnmapMemory'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator5clearEv+0x58): undefined reference to `vkDestroyBuffer'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator5clearEv+0x6c): undefined reference to `vkFreeMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkStagingBufferAllocator::fastMalloc(unsigned long)':
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator10fastMallocEm+0xb8): undefined reference to `vkCreateBuffer'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator10fastMallocEm+0xd4): undefined reference to `vkGetBufferMemoryRequirements'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator10fastMallocEm+0x12c): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator10fastMallocEm+0x14c): undefined reference to `vkBindBufferMemory'
+allocator.cpp:(.text._ZN4ncnn24VkStagingBufferAllocator10fastMallocEm+0x170): undefined reference to `vkMapMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkWeightStagingBufferAllocator::fastMalloc(unsigned long)':
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator10fastMallocEm+0x7c): undefined reference to `vkCreateBuffer'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator10fastMallocEm+0x98): undefined reference to `vkGetBufferMemoryRequirements'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator10fastMallocEm+0xf0): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator10fastMallocEm+0x114): undefined reference to `vkBindBufferMemory'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator10fastMallocEm+0x138): undefined reference to `vkMapMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkWeightStagingBufferAllocator::fastFree(ncnn::VkBufferMemory*)':
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator8fastFreeEPNS_14VkBufferMemoryE+0x20): undefined reference to `vkUnmapMemory'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator8fastFreeEPNS_14VkBufferMemoryE+0x34): undefined reference to `vkDestroyBuffer'
+allocator.cpp:(.text._ZN4ncnn30VkWeightStagingBufferAllocator8fastFreeEPNS_14VkBufferMemoryE+0x48): undefined reference to `vkFreeMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkImageAllocator::create_image(int, int, VkFormat, unsigned int)':
+allocator.cpp:(.text._ZN4ncnn16VkImageAllocator12create_imageEii8VkFormatj+0x60): undefined reference to `vkCreateImage'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkImageAllocator::create_imageview(VkImage_T*, VkFormat)':
+allocator.cpp:(.text._ZN4ncnn16VkImageAllocator16create_imageviewEP9VkImage_T8VkFormat+0x60): undefined reference to `vkCreateImageView'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkImageAllocator::allocate_dedicated_memory(unsigned long, VkImage_T*)':
+allocator.cpp:(.text._ZN4ncnn16VkImageAllocator25allocate_dedicated_memoryEmP9VkImage_T+0x60): undefined reference to `vkAllocateMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkSimpleImageAllocator::fastMalloc(int, int, VkFormat)':
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator10fastMallocEii8VkFormat+0x8c): undefined reference to `vkCreateImage'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator10fastMallocEii8VkFormat+0xac): undefined reference to `vkGetImageMemoryRequirements'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator10fastMallocEii8VkFormat+0x120): undefined reference to `vkAllocateMemory'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator10fastMallocEii8VkFormat+0x140): undefined reference to `vkBindImageMemory'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator10fastMallocEii8VkFormat+0x188): undefined reference to `vkCreateImageView'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(allocator.cpp.o): In function `ncnn::VkSimpleImageAllocator::fastFree(ncnn::VkImageMemory*)':
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator8fastFreeEPNS_13VkImageMemoryE+0x24): undefined reference to `vkDestroyImageView'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator8fastFreeEPNS_13VkImageMemoryE+0x38): undefined reference to `vkDestroyImage'
+allocator.cpp:(.text._ZN4ncnn22VkSimpleImageAllocator8fastFreeEPNS_13VkImageMemoryE+0x4c): undefined reference to `vkFreeMemory'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(net.cpp.o): In function `ncnn::Net::load_param(AAssetManager*, char const*)':
+net.cpp:(.text._ZN4ncnn3Net10load_paramEP13AAssetManagerPKc+0x34): undefined reference to `AAssetManager_open'
+net.cpp:(.text._ZN4ncnn3Net10load_paramEP13AAssetManagerPKc+0x68): undefined reference to `AAsset_close'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(net.cpp.o): In function `ncnn::Net::load_param_bin(AAssetManager*, char const*)':
+net.cpp:(.text._ZN4ncnn3Net14load_param_binEP13AAssetManagerPKc+0x34): undefined reference to `AAssetManager_open'
+net.cpp:(.text._ZN4ncnn3Net14load_param_binEP13AAssetManagerPKc+0x68): undefined reference to `AAsset_close'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(net.cpp.o): In function `ncnn::Net::load_model(AAssetManager*, char const*)':
+net.cpp:(.text._ZN4ncnn3Net10load_modelEP13AAssetManagerPKc+0x34): undefined reference to `AAssetManager_open'
+net.cpp:(.text._ZN4ncnn3Net10load_modelEP13AAssetManagerPKc+0x68): undefined reference to `AAsset_close'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(mat_pixel_android.cpp.o): In function `ncnn::Mat::from_android_bitmap(_JNIEnv*, _jobject*, int, ncnn::Allocator*)':
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat19from_android_bitmapEP7_JNIEnvP8_jobjectiPNS_9AllocatorE+0x40): undefined reference to `AndroidBitmap_getInfo'
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat19from_android_bitmapEP7_JNIEnvP8_jobjectiPNS_9AllocatorE+0x84): undefined reference to `AndroidBitmap_lockPixels'
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat19from_android_bitmapEP7_JNIEnvP8_jobjectiPNS_9AllocatorE+0xb8): undefined reference to `AndroidBitmap_unlockPixels'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(mat_pixel_android.cpp.o): In function `ncnn::Mat::from_android_bitmap_resize(_JNIEnv*, _jobject*, int, int, int, ncnn::Allocator*)':
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat26from_android_bitmap_resizeEP7_JNIEnvP8_jobjectiiiPNS_9AllocatorE+0x4c): undefined reference to `AndroidBitmap_getInfo'
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat26from_android_bitmap_resizeEP7_JNIEnvP8_jobjectiiiPNS_9AllocatorE+0x90): undefined reference to `AndroidBitmap_lockPixels'
+mat_pixel_android.cpp:(.text._ZN4ncnn3Mat26from_android_bitmap_resizeEP7_JNIEnvP8_jobjectiiiPNS_9AllocatorE+0xcc): undefined reference to `AndroidBitmap_unlockPixels'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(mat_pixel_android.cpp.o): In function `ncnn::Mat::to_android_bitmap(_JNIEnv*, _jobject*, int) const':
+mat_pixel_android.cpp:(.text._ZNK4ncnn3Mat17to_android_bitmapEP7_JNIEnvP8_jobjecti+0x40): undefined reference to `AndroidBitmap_getInfo'
+mat_pixel_android.cpp:(.text._ZNK4ncnn3Mat17to_android_bitmapEP7_JNIEnvP8_jobjecti+0x74): undefined reference to `AndroidBitmap_lockPixels'
+mat_pixel_android.cpp:(.text._ZNK4ncnn3Mat17to_android_bitmapEP7_JNIEnvP8_jobjecti+0xa0): undefined reference to `AndroidBitmap_unlockPixels'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::Command(ncnn::VulkanDevice const*, unsigned int)':
+command.cpp:(.text._ZN4ncnn7CommandC2EPKNS_12VulkanDeviceEj+0x54): undefined reference to `vkCreateCommandPool'
+command.cpp:(.text._ZN4ncnn7CommandC2EPKNS_12VulkanDeviceEj+0x88): undefined reference to `vkAllocateCommandBuffers'
+command.cpp:(.text._ZN4ncnn7CommandC2EPKNS_12VulkanDeviceEj+0xb4): undefined reference to `vkCreateFence'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::create_command_pool()':
+command.cpp:(.text._ZN4ncnn7Command19create_command_poolEv+0x4c): undefined reference to `vkCreateCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::create_command_buffer()':
+command.cpp:(.text._ZN4ncnn7Command21create_command_bufferEv+0x4c): undefined reference to `vkAllocateCommandBuffers'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::~Command()':
+command.cpp:(.text._ZN4ncnn7CommandD2Ev+0x2c): undefined reference to `vkDestroyFence'
+command.cpp:(.text._ZN4ncnn7CommandD2Ev+0x44): undefined reference to `vkFreeCommandBuffers'
+command.cpp:(.text._ZN4ncnn7CommandD2Ev+0x60): undefined reference to `vkDestroyCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::~Command()':
+command.cpp:(.text._ZN4ncnn7CommandD0Ev+0x2c): undefined reference to `vkDestroyFence'
+command.cpp:(.text._ZN4ncnn7CommandD0Ev+0x44): undefined reference to `vkFreeCommandBuffers'
+command.cpp:(.text._ZN4ncnn7CommandD0Ev+0x58): undefined reference to `vkDestroyCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::begin_command_buffer()':
+command.cpp:(.text._ZN4ncnn7Command20begin_command_bufferEv+0x3c): undefined reference to `vkBeginCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::end_command_buffer()':
+command.cpp:(.text._ZN4ncnn7Command18end_command_bufferEv+0xc): undefined reference to `vkEndCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::Command::queue_submit_and_wait_fence()':
+command.cpp:(.text._ZN4ncnn7Command27queue_submit_and_wait_fenceEv+0x74): undefined reference to `vkQueueSubmit'
+command.cpp:(.text._ZN4ncnn7Command27queue_submit_and_wait_fenceEv+0x94): undefined reference to `vkWaitForFences'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::VkCompute(ncnn::VulkanDevice const*)':
+command.cpp:(.text._ZN4ncnn9VkComputeC2EPKNS_12VulkanDeviceE+0x7c): undefined reference to `vkBeginCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::~VkCompute()':
+command.cpp:(.text._ZN4ncnn9VkComputeD2Ev+0x68): undefined reference to `vkFreeDescriptorSets'
+command.cpp:(.text._ZN4ncnn9VkComputeD2Ev+0x80): undefined reference to `vkDestroyDescriptorPool'
+command.cpp:(.text._ZN4ncnn9VkComputeD2Ev+0x128): undefined reference to `vkDestroyFence'
+command.cpp:(.text._ZN4ncnn9VkComputeD2Ev+0x140): undefined reference to `vkFreeCommandBuffers'
+command.cpp:(.text._ZN4ncnn9VkComputeD2Ev+0x160): undefined reference to `vkDestroyCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_upload(ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute13record_uploadERKNS_5VkMatE+0xd0): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::copy_buffer(VkBuffer_T*, unsigned long, VkBuffer_T*, unsigned long, unsigned long)':
+command.cpp:(.text._ZN4ncnn9VkCompute11copy_bufferEP10VkBuffer_TmS2_mm+0x38): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_download(ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute15record_downloadERKNS_5VkMatE+0x118): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_clone(ncnn::VkMat const&, ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute12record_cloneERKNS_5VkMatES3_+0x118): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_copy_regions(ncnn::VkMat const&, ncnn::VkMat const&, std::__ndk1::vector<VkBufferCopy, std::__ndk1::allocator<VkBufferCopy> > const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute19record_copy_regionsERKNS_5VkMatES3_RKNSt6__ndk16vectorI12VkBufferCopyNS4_9allocatorIS6_EEEE+0x108): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o):command.cpp:(.text._ZN4ncnn9VkCompute19copy_buffer_regionsEP10VkBuffer_TS2_RKNSt6__ndk16vectorI12VkBufferCopyNS3_9allocatorIS5_EEEE+0x1c): more undefined references to `vkCmdCopyBuffer' follow
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_bind_pipeline(VkPipeline_T*)':
+command.cpp:(.text._ZN4ncnn9VkCompute20record_bind_pipelineEP12VkPipeline_T+0x44): undefined reference to `vkCmdBindPipeline'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_update_bindings(VkPipelineLayout_T*, VkDescriptorSetLayout_T*, VkDescriptorUpdateTemplate_T*, std::__ndk1::vector<ncnn::VkMat, std::__ndk1::allocator<ncnn::VkMat> > const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute22record_update_bindingsEP18VkPipelineLayout_TP23VkDescriptorSetLayout_TP28VkDescriptorUpdateTemplate_TRKNSt6__ndk16vectorINS_5VkMatENS7_9allocatorIS9_EEEE+0x168): undefined reference to `vkCreateDescriptorPool'
+command.cpp:(.text._ZN4ncnn9VkCompute22record_update_bindingsEP18VkPipelineLayout_TP23VkDescriptorSetLayout_TP28VkDescriptorUpdateTemplate_TRKNSt6__ndk16vectorINS_5VkMatENS7_9allocatorIS9_EEEE+0x268): undefined reference to `vkAllocateDescriptorSets'
+command.cpp:(.text._ZN4ncnn9VkCompute22record_update_bindingsEP18VkPipelineLayout_TP23VkDescriptorSetLayout_TP28VkDescriptorUpdateTemplate_TRKNSt6__ndk16vectorINS_5VkMatENS7_9allocatorIS9_EEEE+0x420): undefined reference to `vkUpdateDescriptorSets'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_push_constants(VkPipelineLayout_T*, std::__ndk1::vector<ncnn::vk_constant_type, std::__ndk1::allocator<ncnn::vk_constant_type> > const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute21record_push_constantsEP18VkPipelineLayout_TRKNSt6__ndk16vectorINS_16vk_constant_typeENS3_9allocatorIS5_EEEE+0x54): undefined reference to `vkCmdPushConstants'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_dispatch(unsigned int const*)':
+command.cpp:(.text._ZN4ncnn9VkCompute15record_dispatchEPKj+0x48): undefined reference to `vkCmdDispatch'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_queue_transfer_acquire(ncnn::VkMat const&, unsigned int)':
+command.cpp:(.text._ZN4ncnn9VkCompute29record_queue_transfer_acquireERKNS_5VkMatEj+0xb0): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::queue_transfer_acquire_barrier(VkBuffer_T*, unsigned long, unsigned long, unsigned int)':
+command.cpp:(.text._ZN4ncnn9VkCompute30queue_transfer_acquire_barrierEP10VkBuffer_Tmmj+0x6c): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::bind_pipeline(VkPipeline_T*)':
+command.cpp:(.text._ZN4ncnn9VkCompute13bind_pipelineEP12VkPipeline_T+0xc): undefined reference to `vkCmdBindPipeline'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::push_constants(VkPipelineLayout_T*, std::__ndk1::vector<ncnn::vk_constant_type, std::__ndk1::allocator<ncnn::vk_constant_type> > const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute14push_constantsEP18VkPipelineLayout_TRKNSt6__ndk16vectorINS_16vk_constant_typeENS3_9allocatorIS5_EEEE+0x1c): undefined reference to `vkCmdPushConstants'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::dispatch(unsigned int const*)':
+command.cpp:(.text._ZN4ncnn9VkCompute8dispatchEPKj+0x10): undefined reference to `vkCmdDispatch'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_transfer_compute_barrier(ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute31record_transfer_compute_barrierERKNS_5VkMatE+0xac): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::transfer_compute_barrier(VkBuffer_T*, unsigned long, unsigned long)':
+command.cpp:(.text._ZN4ncnn9VkCompute24transfer_compute_barrierEP10VkBuffer_Tmm+0x64): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_compute_transfer_barrier(ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute31record_compute_transfer_barrierERKNS_5VkMatE+0xac): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::compute_transfer_barrier(VkBuffer_T*, unsigned long, unsigned long)':
+command.cpp:(.text._ZN4ncnn9VkCompute24compute_transfer_barrierEP10VkBuffer_Tmm+0x64): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::record_compute_compute_barrier(ncnn::VkMat const&)':
+command.cpp:(.text._ZN4ncnn9VkCompute30record_compute_compute_barrierERKNS_5VkMatE+0xac): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o):command.cpp:(.text._ZN4ncnn9VkCompute23compute_compute_barrierEP10VkBuffer_Tmm+0x64): more undefined references to `vkCmdPipelineBarrier' follow
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::submit_and_wait()':
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x48): undefined reference to `vkEndCommandBuffer'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x90): undefined reference to `vkBeginCommandBuffer'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x190): undefined reference to `vkCmdCopyBuffer'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x26c): undefined reference to `vkCmdBindPipeline'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x284): undefined reference to `vkCmdDispatch'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x2e8): undefined reference to `vkCmdCopyBuffer'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x3f8): undefined reference to `vkCmdBindDescriptorSets'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x424): undefined reference to `vkCmdPushConstants'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x4b0): undefined reference to `vkCmdPipelineBarrier'
+command.cpp:(.text._ZN4ncnn9VkCompute15submit_and_waitEv+0x4d8): undefined reference to `vkEndCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::bind_descriptorset(VkPipelineLayout_T*, VkDescriptorSet_T*)':
+command.cpp:(.text._ZN4ncnn9VkCompute18bind_descriptorsetEP18VkPipelineLayout_TP17VkDescriptorSet_T+0x40): undefined reference to `vkCmdBindDescriptorSets'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkCompute::reset()':
+command.cpp:(.text._ZN4ncnn9VkCompute5resetEv+0x28): undefined reference to `vkResetCommandBuffer'
+command.cpp:(.text._ZN4ncnn9VkCompute5resetEv+0x40): undefined reference to `vkResetFences'
+command.cpp:(.text._ZN4ncnn9VkCompute5resetEv+0x78): undefined reference to `vkBeginCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::~VkTransfer()':
+command.cpp:(.text._ZN4ncnn10VkTransferD2Ev+0x3c): undefined reference to `vkDestroyFence'
+command.cpp:(.text._ZN4ncnn10VkTransferD2Ev+0x54): undefined reference to `vkFreeCommandBuffers'
+command.cpp:(.text._ZN4ncnn10VkTransferD2Ev+0x70): undefined reference to `vkDestroyCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::~VkTransfer()':
+command.cpp:(.text._ZN4ncnn10VkTransferD0Ev+0x3c): undefined reference to `vkDestroyFence'
+command.cpp:(.text._ZN4ncnn10VkTransferD0Ev+0x54): undefined reference to `vkFreeCommandBuffers'
+command.cpp:(.text._ZN4ncnn10VkTransferD0Ev+0x68): undefined reference to `vkDestroyCommandPool'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::submit_and_wait()':
+command.cpp:(.text._ZN4ncnn10VkTransfer15submit_and_waitEv+0x1dc): undefined reference to `vkBeginCommandBuffer'
+command.cpp:(.text._ZN4ncnn10VkTransfer15submit_and_waitEv+0x228): undefined reference to `vkCmdCopyBuffer'
+command.cpp:(.text._ZN4ncnn10VkTransfer15submit_and_waitEv+0x2d8): undefined reference to `vkCmdPipelineBarrier'
+command.cpp:(.text._ZN4ncnn10VkTransfer15submit_and_waitEv+0x2ec): undefined reference to `vkEndCommandBuffer'
+command.cpp:(.text._ZN4ncnn10VkTransfer15submit_and_waitEv+0x364): undefined reference to `vkBeginCommandBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::copy_buffer(VkBuffer_T*, unsigned long, VkBuffer_T*, unsigned long, unsigned long)':
+command.cpp:(.text._ZN4ncnn10VkTransfer11copy_bufferEP10VkBuffer_TmS2_mm+0x38): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::queue_transfer_release_barrier(VkBuffer_T*, unsigned long, unsigned long, unsigned int)':
+command.cpp:(.text._ZN4ncnn10VkTransfer30queue_transfer_release_barrierEP10VkBuffer_Tmmj+0x6c): undefined reference to `vkCmdPipelineBarrier'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(command.cpp.o): In function `ncnn::VkTransfer::copy_buffer_regions(VkBuffer_T*, VkBuffer_T*, std::__ndk1::vector<VkBufferCopy, std::__ndk1::allocator<VkBufferCopy> > const&)':
+command.cpp:(.text._ZN4ncnn10VkTransfer19copy_buffer_regionsEP10VkBuffer_TS2_RKNSt6__ndk16vectorI12VkBufferCopyNS3_9allocatorIS5_EEEE+0x1c): undefined reference to `vkCmdCopyBuffer'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(datareader.cpp.o): In function `ncnn::DataReaderFromAndroidAsset::scan(char const*, void*) const':
+datareader.cpp:(.text._ZNK4ncnn26DataReaderFromAndroidAsset4scanEPKcPv+0x44): undefined reference to `AAsset_seek'
+datareader.cpp:(.text._ZNK4ncnn26DataReaderFromAndroidAsset4scanEPKcPv+0x54): undefined reference to `AAsset_getBuffer'
+datareader.cpp:(.text._ZNK4ncnn26DataReaderFromAndroidAsset4scanEPKcPv+0xd0): undefined reference to `AAsset_seek'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(datareader.cpp.o): In function `ncnn::DataReaderFromAndroidAsset::read(void*, unsigned long) const':
+datareader.cpp:(.text._ZNK4ncnn26DataReaderFromAndroidAsset4readEPvm+0x14): undefined reference to `AAsset_read'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(pipeline.cpp.o): In function `ncnn::Pipeline::destroy()':
+pipeline.cpp:(.text._ZN4ncnn8Pipeline7destroyEv+0x50): undefined reference to `vkDestroyPipeline'
+pipeline.cpp:(.text._ZN4ncnn8Pipeline7destroyEv+0x6c): undefined reference to `vkDestroyPipelineLayout'
+pipeline.cpp:(.text._ZN4ncnn8Pipeline7destroyEv+0x88): undefined reference to `vkDestroyDescriptorSetLayout'
+pipeline.cpp:(.text._ZN4ncnn8Pipeline7destroyEv+0xa4): undefined reference to `vkDestroyShaderModule'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(pipeline.cpp.o): In function `ncnn::Pipeline::create(VkShaderModule_T*, char const*, std::__ndk1::vector<ncnn::vk_specialization_type, std::__ndk1::allocator<ncnn::vk_specialization_type> > const&, int, int)':
+pipeline.cpp:(.text._ZN4ncnn8Pipeline6createEP16VkShaderModule_TPKcRKNSt6__ndk16vectorINS_22vk_specialization_typeENS5_9allocatorIS7_EEEEii+0xb4): undefined reference to `vkCreatePipelineLayout'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(pipeline.cpp.o): In function `ncnn::Pipeline::create_descriptorset_layout(int)':
+pipeline.cpp:(.text._ZN4ncnn8Pipeline27create_descriptorset_layoutEi+0x140): undefined reference to `vkCreateDescriptorSetLayout'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(pipeline.cpp.o): In function `ncnn::Pipeline::create_pipeline_layout(int)':
+pipeline.cpp:(.text._ZN4ncnn8Pipeline22create_pipeline_layoutEi+0x88): undefined reference to `vkCreatePipelineLayout'
+../../../../src/main/jni/ncnn-android-vulkan-lib/arm64-v8a/libncnn.a(pipeline.cpp.o): In function `ncnn::Pipeline::create_pipeline(VkShaderModule_T*, char const*, std::__ndk1::vector<ncnn::vk_specialization_type, std::__ndk1::allocator<ncnn::vk_specialization_type> > const&)':
+pipeline.cpp:(.text._ZN4ncnn8Pipeline15create_pipelineEP16VkShaderModule_TPKcRKNSt6__ndk16vectorINS_22vk_specialization_typeENS5_9allocatorIS7_EEEE+0x2d0): undefined reference to `vkCreateComputePipelines'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

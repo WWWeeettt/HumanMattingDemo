@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "D:\\Program\\Android\\segment\\app\\src\\main\\jni\\Android.mk",
+    "D:\\Program\\Android\\segment\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Software\\AndroidSDK\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dD:/Program/Android/segment/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Software\\AndroidSDK\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dD:/Program/Android/segment/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "squeezencnn-debug-arm64-v8a": {
+      "artifactName": "squeezencnn",
+      "buildCommand": "C:\\Software\\AndroidSDK\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Program\\Android\\segment\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dD:/Program/Android/segment/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Program/Android/segment/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsqueezencnn.so",
+      "abi": "arm64-v8a",
+      "output": "D:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libsqueezencnn.so"
+    }
+  }
+}

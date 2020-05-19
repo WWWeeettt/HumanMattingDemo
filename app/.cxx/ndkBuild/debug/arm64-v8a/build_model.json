@@ -1,0 +1,58 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\Program\\Android\\segment",
+      "sdkFolder": "C:\\Software\\AndroidSDK",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Program\\Android\\segment\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\Program\\Android\\segment\\app",
+      "makeFile": "D:\\Program\\Android\\segment\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "D:\\Program\\Android\\segment\\.cxx",
+      "cxxFolder": "D:\\Program\\Android\\segment\\app\\.cxx",
+      "ndkFolder": "C:\\Software\\AndroidSDK\\ndk\\20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "D:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "D:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "D:\\Program\\Android\\segment\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a",
+  "jsonFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\Program\\Android\\segment\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "D:\\Program\\Android\\segment\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a",
+  "buildCommandFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\Program\\Android\\segment\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\compile_commands.json"
+}

@@ -5,38 +5,38 @@
 5    android:versionName="1.1" >
 6
 7    <uses-sdk android:minSdkVersion="24" />
-7-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+7-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.CAMERA" />
-9-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:7:5-65
-9-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:7:22-62
+9-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:7:5-65
+9-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:7:22-62
 10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-10-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:8:5-71
-10-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:8:22-68
+10-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:8:5-71
+10-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:8:22-68
 11
 12    <application
-12-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:10:5-18:19
+12-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:10:5-18:19
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.0.1] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3963e1eb9f780c0b3d292562b62b2f3b\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:label="@string/app_name"
-15-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:10:18-50
+15-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:10:18-50
 16        android:testOnly="true" >
 17        <activity
-17-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:11:9-17:20
+17-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:11:9-17:20
 18            android:name="com.tencent.squeezencnn.MainActivity"
-18-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:11:19-46
+18-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:11:19-46
 19            android:label="@string/app_name" >
-19-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:12:19-51
+19-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:12:19-51
 20            <intent-filter>
-20-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:13:13-16:29
+20-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:13:13-16:29
 21                <action android:name="android.intent.action.MAIN" />
-21-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:14:17-69
-21-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:14:25-66
+21-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:14:17-69
+21-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:14:25-66
 22
 23                <category android:name="android.intent.category.LAUNCHER" />
-23-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:15:17-77
-23-->C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:15:27-74
+23-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:15:17-77
+23-->D:\Program\Android\segment\app\src\main\AndroidManifest.xml:15:27-74
 24            </intent-filter>
 25        </activity>
 26    </application>

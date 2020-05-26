@@ -1,5 +1,5 @@
-C:/Software/Data/Program/segment/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/squeezencnn/squeezencnn_jni.o: \
-  C:\Software\Data\Program\segment\app\src\main\jni\squeezencnn_jni.cpp \
+D:/Program/Android/segment/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/squeezencnn/squeezencnn_jni.o: \
+  D:\Program\Android\segment\app\src\main\jni\squeezencnn_jni.cpp \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\string \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\__config \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\string_view \
@@ -45,21 +45,21 @@ C:/Software/Data/Program/segment/app/build/intermediates/ndkBuild/debug/obj/loca
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\climits \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\net.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\platform.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\blob.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\mat.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\allocator.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\net.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\platform.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\blob.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\mat.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\allocator.h \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\list \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\gpu.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\option.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\layer.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\gpu.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\option.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\layer.h \
   C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\math.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\modelbin.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\paramdict.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\command.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\pipeline.h \
-  C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\benchmark.h
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\modelbin.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\paramdict.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\command.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\pipeline.h \
+  D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\benchmark.h
 
 C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\string:
 
@@ -151,32 +151,32 @@ C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\in
 
 C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\net.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\net.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\platform.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\platform.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\blob.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\blob.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\mat.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\mat.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\allocator.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\allocator.h:
 
 C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\list:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\gpu.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\gpu.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\option.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\option.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\layer.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\layer.h:
 
 C:\Software\AndroidSDK\ndk\20.0.5594570\build\\..\sources\cxx-stl\llvm-libc++\include\math.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\modelbin.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\modelbin.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\paramdict.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\paramdict.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\command.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\command.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\pipeline.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\pipeline.h:
 
-C:\Software\Data\Program\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\benchmark.h:
+D:\Program\Android\segment\app\src\main\jni\ncnn-android-vulkan-lib\include\ncnn\benchmark.h:

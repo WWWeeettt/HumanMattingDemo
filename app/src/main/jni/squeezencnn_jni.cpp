@@ -80,15 +80,15 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_squeezencnn_SqueezeNcnn_Detect(JNIEn
     ex.input("input", in);
 //    int st, et;
 //    double costtime;
-    st = clock();
+//    st = clock();
     ncnn::Mat out;
     ex.extract("output", out);
-    et = clock();
+//    et = clock();
 //    costtime = et - st;
 //    LOGD("detect cost %fs\n", costtime / CLOCKS_PER_SEC);
     ncnn::Mat channel0 = out.channel(0);
 //    LOGD("%d, %d, %d", channel0.w, channel0.h, channel0.c);
-    ncnn::Mat channel1 = out.channel(1);
+//    ncnn::Mat channel1 = out.channel(1);
 //    LOGD("ok 1\n");
     double h_scale = height / 224.f;
     double w_scale = width / 224.f;
@@ -96,8 +96,8 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_squeezencnn_SqueezeNcnn_Detect(JNIEn
         for (int j=0; j<width; j++) {
             int i_scale = int(i / h_scale);
             int j_scale = int(j / w_scale);
-            if(channel0.row(i_scale)[j_scale]>channel1.row(i_scale)[j_scale]){
-//            if(channel0.row(i)[j]>0.5){
+//            if(channel0.row(i_scale)[j_scale]>channel1.row(i_scale)[j_scale]){
+            if(channel0.row(i)[j]>0.5){
                 ((float*)out_mat.data)[0*height*width+i*width+j] = ((float*)back_mat.data)[0*height*width+i*width+j];
                 ((float*)out_mat.data)[1*height*width+i*width+j] = ((float*)back_mat.data)[1*height*width+i*width+j];
                 ((float*)out_mat.data)[2*height*width+i*width+j] = ((float*)back_mat.data)[2*height*width+i*width+j];

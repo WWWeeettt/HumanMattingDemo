@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3669fd2f6663fb8f4f17af7b297f4932\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\fa1c0e17b004fc188166e9c6cedbbce8\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\aad9e6145ae4dda4683b444d394c47e9\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -30,33 +30,33 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\30610\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\5874c75ab2acb0624f462ed47d1ba8d7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\947c13071175ee952ad44169b6392c4b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\486eee4c043a9119fab7599bd61a4f5d\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:1-19:12
 	package
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:3:7-40
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:3:7-40
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:5:7-32
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:4:7-30
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:8:22-68
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:8:22-68
 application
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:10:5-18:19
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:10:5-18:19
 MERGED from [androidx.core:core:1.0.1] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3963e1eb9f780c0b3d292562b62b2f3b\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3963e1eb9f780c0b3d292562b62b2f3b\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\94095cf146381c6e0ea514eec791b399\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
@@ -64,26 +64,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\30
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3963e1eb9f780c0b3d292562b62b2f3b\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:10:18-50
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:10:18-50
 activity#com.tencent.squeezencnn.MainActivity
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:label
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:12:19-51
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:12:19-51
 	android:name
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:11:19-46
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:11:19-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml:15:27-74
 uses-sdk
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3669fd2f6663fb8f4f17af7b297f4932\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\3669fd2f6663fb8f4f17af7b297f4932\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\fa1c0e17b004fc188166e9c6cedbbce8\fragment-1.0.0\AndroidManifest.xml:20:5-44
@@ -136,8 +136,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\30610\.gradle\cache
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\947c13071175ee952ad44169b6392c4b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\486eee4c043a9119fab7599bd61a4f5d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\30610\.gradle\caches\transforms-2\files-2.1\486eee4c043a9119fab7599bd61a4f5d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Software\Data\Program\segment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
+		ADDED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Program\Android\segment\app\src\main\AndroidManifest.xml

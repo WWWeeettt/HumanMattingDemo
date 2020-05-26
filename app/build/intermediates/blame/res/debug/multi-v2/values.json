@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Software\\Data\\Program\\segment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Program\\Android\\segment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Software\\Data\\Program\\segment\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
-                    },
-                    "to": {
-                        "startLines": "249",
-                        "startColumns": "4",
-                        "startOffsets": "16625",
-                        "endColumns": "48",
-                        "endOffsets": "16669"
-                    }
-                },
                 {
                     "source": "C:\\Users\\30610\\.gradle\\caches\\transforms-2\\files-2.1\\3669fd2f6663fb8f4f17af7b297f4932\\appcompat-1.0.2\\res\\values\\values.xml",
                     "from": {
@@ -75,6 +58,23 @@
                         "endLines": "50,51,147,148,149,150,151,152,153,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,186,187,193,194,198,199,200,201,202,203,209,251,1566,1570,1571,1575,1576,1713,1714,2385,2571,2603,2640,2647",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "3357,3420,10013,10081,10153,10223,10284,10358,10431,11276,11337,11399,11463,11525,11586,11654,11754,11814,11880,11953,12022,12079,12131,12193,12718,12794,13068,13103,13295,13356,13413,13447,13482,13517,13862,16793,104476,104677,104787,104988,105117,116015,116082,152192,163342,165407,167167,167544"
+                    }
+                },
+                {
+                    "source": "D:\\Program\\Android\\segment\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    },
+                    "to": {
+                        "startLines": "249",
+                        "startColumns": "4",
+                        "startOffsets": "16625",
+                        "endColumns": "48",
+                        "endOffsets": "16669"
                     }
                 }
             ]
